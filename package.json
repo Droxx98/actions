@@ -6,12 +6,15 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "format": "prettier --write .",
+    "typescript": "tsc -- --noEmit"
   },
   "dependencies": {
     "@react-navigation/stack": "^6.4.1",
     "expo": "~51.0.28",
     "expo-status-bar": "~1.12.1",
+    "prettier": "^3.3.3",
     "react": "18.2.0",
     "react-native": "0.74.5",
     "react-native-gesture-handler": "~2.16.1"
