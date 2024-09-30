@@ -7,8 +7,8 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "format" : "prettier --check .*",
-    "typescript": "tsc --noEmit"
+    "format" : "prettier --write",
+    "typescript": "tsc -- --noEmit"
   },
   "dependencies": {
     "@react-navigation/stack": "^6.4.1",
